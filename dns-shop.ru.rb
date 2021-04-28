@@ -21,6 +21,7 @@ while (true)
     puts i.to_s + "-" + showing.content + "-" + j.to_s
     i += 1
     flag = true
+    ###
   end
   j += 1
   if (!flag)

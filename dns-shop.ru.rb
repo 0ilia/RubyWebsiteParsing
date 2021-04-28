@@ -16,7 +16,7 @@ while (true)
   doc = Nokogiri::HTML(html)
   puts url
   ######
-  # @asdasdl32456789op
+  # @asdasdl
   flag = false
   doc.xpath("/html/body/div[1]/div/div[4]/div[2]/div[1]/div[1]/div[2]/div/div/div/div/div/div/div[2]/div/a").each() do |showing|
     puts i.to_s + "-" + showing.content + "-" + j.to_s

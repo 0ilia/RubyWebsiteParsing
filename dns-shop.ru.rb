@@ -15,7 +15,7 @@ while (true)
   html = open(url)
   doc = Nokogiri::HTML(html)
   puts url
-  ######фывфыв
+  ######
   # @asdasdl
   flag = false
   doc.xpath("/html/body/div[1]/div/div[4]/div[2]/div[1]/div[1]/div[2]/div/div/div/div/div/div/div[2]/div/a").each() do |showing|
